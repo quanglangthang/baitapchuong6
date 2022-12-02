@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void sumM(int arr[], int check,int n) {
+void mang(int arr[], int check,int n) {
 	if (n >= 0) {
 		cout << arr[check] << " ";
 		sumM(arr, check + 1, n - 1);
@@ -16,5 +16,5 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		cin >> arr[i];
 	}
-    sumM(arr, check,n-1);
+    mang(arr, check,n-1);
 }
