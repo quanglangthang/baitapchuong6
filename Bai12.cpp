@@ -19,3 +19,24 @@ int main() {
 
     return 0;
 }
+
+
+// #include <iostream>
+// using namespace std;
+
+// int sum(int a, int b) {
+//     if (a == b) {
+//         return a;
+//     }
+//     else {
+//         return a+sum(a+1,b);
+//     }
+// }
+
+// int main() {
+//     int a,b;
+//     cin >> a >> b;
+//     cout << sum(a,b);
+
+//     return 0;
+// }
